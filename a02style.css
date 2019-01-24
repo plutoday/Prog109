@@ -4,12 +4,14 @@ h1 {
     font-family: 'AvaraBold'; 
     font-weight: normal; 
     font-style: normal;
+    border: 0px;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    padding: 0px;
 }
 header{
-    background-color:lightseagreen;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin: 0px;
+    background-color:rgb(42, 119, 206);
+    padding: 30px;
 }
 body {
     line-height: 0px;
