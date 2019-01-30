@@ -1,0 +1,125 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.bun-top {
+  height: 60px;
+  width: 70%;
+  background: #e7b056;
+  border-radius: 100px 100px 20px 20px;
+  border-bottom: solid 10px rgba(0,0,0,.1);
+}
+
+.cheese {
+  height: 15px;
+  width: 65%;
+  background: #f2c120;
+  border-bottom: solid 2px rgba(0,0,0,.1);
+}
+
+.tomato {
+  height: 25px;
+  width: 60%;
+  border-radius: 20px 20px 20px 20px;
+  background-color: #dd3710;
+  border-bottom: solid 2px rgba(0,0,0,.1);
+}
+
+.meatball {
+  height: 60px;
+  width: 70px;
+  background: #ad370b;
+  border-radius: 50px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.patty {
+  height: 35px;
+  width: 65%;
+  background: #74380d;
+  border-radius: 15px;
+  border-bottom: solid 2px rgba(0,0,0,.1);
+}
+
+.pickle {
+  height: 30px;
+  width: 50%;
+  background: #3bb877;
+  border-radius: 0 0 100px 100px;
+  border-bottom: solid 10px #0f3823;
+}
+
+.onion {
+  width: 40%;
+  background-color: #a039bf;
+  border-top: dotted 20px rgba(255,255,255,.2);
+}
+
+.bun-bottom {
+  height: 35px;
+  width: 70%;
+  background: #e7b056;
+  border-radius: 20px 20px 40px 40px;
+  border-top: solid 8px rgba(0,0,0,.1)
+}
+
+.plate {
+  height: 25px;
+  width: 90%;
+  background: #646161;
+  border-radius: 20px 20px 200px 200px;
+}
+
+.bun-top2 {
+  height: 60px;
+  width: 70%;
+  background:pink;
+  border-radius: 100px 100px 20px 20px;
+  border-bottom: solid 10px rgba(0,0,0,.1);
+}
+
+.cheese2 {
+  height: 15px;
+  width: 65%;
+  background: #5ca520;
+  border-bottom: solid 2px rgba(0,0,0,.1);
+}
+
+.tomato2 {
+  height: 25px;
+  width: 60%;
+  border-radius: 20px 20px 20px 20px;
+  background-color: #46b1e2;
+  border-bottom: solid 2px rgba(0,0,0,.1);
+}
+
+
+.patty2 {
+  height: 35px;
+  width: 65%;
+  background: rgb(224, 98, 119);
+  border-radius: 15px;
+  border-bottom: solid 2px rgba(0,0,0,.1);
+}
+
+.pickle2 {
+  height: 30px;
+  width: 50%;
+  background: yellow;
+  border-radius: 0 0 100px 100px;
+  border-bottom: solid 10px #0f3823;
+}
+
+.onion2 {
+  width: 40%;
+  background-color: purple;
+  border-top: dotted 20px rgba(255,255,255,.2);
+}
+
+.bun-bottom2 {
+  height: 35px;
+  width: 70%;
+  background:pink;
+  border-radius: 20px 20px 40px 40px;
+  border-top: solid 8px rgba(0,0,0,.1)
+}
