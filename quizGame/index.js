@@ -37,6 +37,8 @@ let rightCount = 0;
 let wrongCount = 0;
 
 function startGame(){
+    document.querySelector("#dog").style.display = "none";
+
     startBtn.style.display = "none";
     restartBtn.style.display = "none";
     gameScene.style.display = "block";
@@ -74,6 +76,7 @@ function checkAnswer(){
 function quit(){
     gameScene.style.display = "none";
     restartBtn.style.display = "block";
+    document.querySelector("#dog").style.display = "block";
     if (rightCount+wrongCount<questions.length){
         output.innerHTML = "You did not finish whole quiz, you got " + rightCount + " out of " + questions.length + " points";
     } else {
