@@ -16,6 +16,7 @@ header{
     background-color: blueviolet;
     width: 600px;
     text-align: center;
+
 }
 #main{
     height: 600px;
@@ -24,6 +25,7 @@ header{
     background-color: lightcyan;
     width: 600px;
     text-align: center;
+
 }
 #start{
     font-size: 25px;
@@ -54,6 +56,7 @@ header{
     display: none;
     margin: 0px auto;
     padding: 20px;
+    border-radius: 5px;
 }
 #dog{
     display: none;
@@ -68,4 +71,6 @@ header{
     padding: 5px;
     cursor: pointer;
     background-color: blueviolet;
+    border-radius: 5px;
+
 }

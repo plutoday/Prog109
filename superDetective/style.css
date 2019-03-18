@@ -1,0 +1,66 @@
+table {
+    width: 300px;
+    text-align: left;
+    margin: 20px 0 0 40px;
+    background-color: aliceblue;
+}
+body {
+    background-color:white;
+    background-image: url("image/back.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position:top;
+}
+
+table, th, td {
+    border: 2px solid white;
+    border-collapse: collapse;
+    background-color:lavender;
+    box-shadow: 2px 3px 3px 2px rgb(158, 152, 158);
+    }
+    th, td {
+    padding: 3px;
+    text-align: left; 
+    height: 30px;   
+    width: 100px;
+}
+td {
+width: 200px;
+}
+#character{
+    position: static;
+    display: inline-block;
+}
+#profile{
+    position: static;
+    float: right;
+    margin-right: 40px;
+}
+#speed {
+    transition: all 0.3s 0.3s linear;
+    background-color: #B18FCF;
+}
+#intelligence {
+    background-color: #FFDDE2;
+    transition: all 0.3s 0.3s linear;
+}
+#strength {
+    background-color: #BCD8C1;
+    transition: all 0.3s 0.3s linear;
+}
+#hunger {
+    background-color: #F3DE8A;
+    transition: all 0.3s 0.3s linear;
+}
+button {
+    width: 300px;
+    margin-left: 40px;
+    height: 30px;
+    margin-top: 20px;
+    background-color: #5239DD;
+    color: white;
+    box-shadow: 2px 3px 3px 3px rgb(158, 152, 158);
+}
+#chpic{
+    padding: 20px;
+}
