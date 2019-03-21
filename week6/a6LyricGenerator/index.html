@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Lyric Generator</title>
+    <style>
+    body {
+      margin: 100px 20%;
+      background-color: #FFA69E;
+    }
+    div {
+      background-color: #EE4B6A;
+      padding: 20px;
+    }
+    </style>
+  </head>
+  <body>
+<div>
+<h1>Lyric Generator</h1>
+<h2>Tell me five words I will generator a lyric for you</h>
+<h3 id="lyric"></h3>
+<input type="submit" value="start" name="Start" id="start" >
+</div>
+</body>
+<script>
+
+document.getElementById("start").addEventListener("click", function(){
+var feelingName = window.prompt("Tell me one world express your feeling now");
+var locationName = window.prompt("Tell me where are you or where you wanna go right now");
+var goodThingName = window.prompt("Tell me a good thing of life you enjoy it right now");
+var lovedOne = window.prompt("Tell me a word to express your loved ones");
+var objectName = window.prompt("Tell me a random object you just think of it right now");
+
+document.getElementById("lyric").innerHTML = ("Sunny day is "+ feelingName + " day. " + feelingName + " day, " 
++ objectName + " won't delay. " +  lovedOne + " you wanna a sundae. Life is like " + 
+goodThingName + ", just look at our old day. This time might not be the day, next time you might have a date, maybe next time we will run "+
+"that won't be late, let's go down the road, let's go down the " + locationName + " Where we will find the world are all "
++ goodThingName + " during the day.") 
+}, false);
+
+</script>
+
+</html>

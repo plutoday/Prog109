@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Chapter7</title>
+    <style>
+    body{
+            margin: 50px 20%;
+    }
+    </style>
+</head>
+<body>
+        <form action="thankyou.html" method="get">
+                <fieldset>
+                    <legend>Personal information:</legend>
+                    Enter your name:<br>
+                    <input type="text" name="name">
+                    <br>
+                    Enter your password:<br>
+                    <input type="password" name="password">
+                    <br>
+                    Tell us about you:<br>
+                    <textarea name="message" rows="10" cols="30"></textarea>
+                    </fieldset>  
+                    Are you new to my site?<br>
+                    <input type="radio" name="yes" value="yes" checked>Yes
+                    <input type="radio" name="no" value="no">No<br>
+                    Do you want to subscribe to my blog?
+                    <input type="checkbox" name="subscribe" value="subscribe" checked><br>
+                    What is your student's year?
+                    <select name="year">
+                            <option value="">--Please choose an option--</option>
+                            <option value="2015">2015</option>
+                            <option value="2016">2016</option>
+                            <option value="2017">2017</option>
+                            <option value="2018">2018</option>
+                          </select>
+                    Where did you hear about me?<br>
+                    <select name="source" size="3" multiple>
+                            <option value="web">Web</option>
+                            <option value="newspaper">Newspaper</option>
+                            <option value="friends">Friends</option>
+                          </select>
+                          <br><br>
+                    <input type="submit" value="Send">
+            </form>
+
+</body>
+</html>

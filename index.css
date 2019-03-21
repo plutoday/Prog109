@@ -1,0 +1,136 @@
+body {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+html {
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100%;
+    height: 50px;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+    background-color: #2DA0FF;
+}
+.welcome{
+    margin: 100px auto;
+    text-align: center;
+}
+
+.btn {
+    margin: 30px auto;
+    background: rgb(250,168,37);
+    width: 130px;
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid rgb(100,56,51);
+}
+.btn a {
+    color: rgb(100,56,51);
+
+}
+.welcome a{
+    font-family: 'Roboto'; 
+    text-align: center;
+    color: #FFF;
+    user-select: none;
+    text-decoration: none;
+}
+nav{
+    position: static;
+    float: right;
+    text-align: center;
+    height: 50px;
+    margin: 0;
+    padding: 0;
+}
+ul{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+  
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+  }
+  
+nav ul li {
+    float: left;
+    font-size: 20px;
+    font-weight: normal; 
+    font-style: normal; 
+  }
+  
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+nav ul li a:hover {
+    background-color: #BCABAE;
+  }
+#course, #me{
+    margin: 0px 20%;
+    height: 600px;
+    padding: 0;
+}
+#me{
+    text-align: center;
+}
+.sidenav {
+    width: 280px;
+    position: fixed;
+    z-index: 1;
+    top: 130px;
+    right: 0px;
+    background: #eee;
+    overflow-x: hidden;
+    padding: 8px 0;
+  }
+  
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    color: #2196F3;
+    display: block;
+  }
+  
+  .sidenav a:hover {
+    color: #064579;
+  }
+  
+  .main {
+    margin-left: 140px; /* Same width as the sidebar + left position in px */
+    font-size: 28px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+  .a {
+      display: inline-block;
+      background-color:lightgrey;
+      text-align: center;
+      padding-top: 20px;
+  }
+ 
+  .aimage {
+      display: block;
+      padding: 20px;
+  }
