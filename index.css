@@ -77,9 +77,12 @@ nav ul li a {
     padding: 14px 16px;
     text-decoration: none;
   }
+ol li {
+    margin: 10px;
+}
   
 nav ul li a:hover {
-    background-color: #BCABAE;
+    background-color: rgb(250,168,37);
   }
 #course, #me{
     margin: 0px 20%;
@@ -87,6 +90,7 @@ nav ul li a:hover {
     padding: 0;
 }
 #me{
+    margin: 50px;
     text-align: center;
 }
 .sidenav {
@@ -104,12 +108,12 @@ nav ul li a:hover {
     padding: 6px 8px 6px 16px;
     text-decoration: none;
     font-size: 17px;
-    color: #2196F3;
+    color: #2DA0FF;
     display: block;
   }
   
   .sidenav a:hover {
-    color: #064579;
+    color: rgb(250,168,37);
   }
   
   .main {
@@ -134,3 +138,11 @@ nav ul li a:hover {
       display: block;
       padding: 20px;
   }
+  h1,h2,h3 {
+    font-family: 'Lora', serif;
+
+  }
+p,a{
+    font-family: 'PT Sans', sans-serif;
+
+}
